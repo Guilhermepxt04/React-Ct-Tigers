@@ -1,4 +1,4 @@
-#home {display: flex;
+.home {display: flex;
     align-items: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: #ffffff;
@@ -10,12 +10,32 @@
     background-repeat: no-repeat;
     background-size: contain;}
 
-#home h1 {
+.home h1 {
     width: 80%;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     font-size: 8em;
 }
 
-#home span {
+.home span {
     color: #EB1C24;
+}
+
+@media (max-width: 1000px) {
+   
+.home {
+        width: 100%;
+        background-size: cover;
+        height: 100vh;
+    }
+
+.home h1 {
+        font-size: 5em;
+    }
+
+}
+
+@media (max-width: 525px) {
+    .home h1 {
+        font-size: 3em;
+    }
 }

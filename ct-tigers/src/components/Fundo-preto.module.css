@@ -7,6 +7,17 @@
     align-items: center;
 }
 
-.kravmaga p {
-    width: 90%;
+.planos div {
+    width: 50%;
+}
+
+@media (max-width: 1000px) {
+    .krav, .planos {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .planos div {
+        width: 100%;
+    }
 }

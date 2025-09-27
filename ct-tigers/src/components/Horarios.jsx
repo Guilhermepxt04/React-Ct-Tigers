@@ -13,7 +13,7 @@ export default function Horarios() {
                 whileInView={{ opacity: 1, translateY: "0%" }}
                 transition={{ duration: 0.6 }}>
                 <h2>Horários das Aulas</h2>
-                <p>Nosso cronogram atual de Aulas, não se esqueça que pode fazer uma aula experimental nas modalidades e também pode marcar um personal no melhor horário para a sua rotina</p>
+                <p>Nosso cronograma atual de Aulas, não se esqueça que pode fazer uma aula experimental nas modalidades e também pode marcar um personal no melhor horário para a sua rotina</p>
             </motion.div>
 
             <motion.table className={Tabela}

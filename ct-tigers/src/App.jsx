@@ -7,15 +7,18 @@ import MuayThai from './components/MuayThai';
 import Planos from './components/Planos';
 import Horarios from './components/Horarios';
 import OndeEstamos from './components/OndeEstamos';
+import Whatsapp from './components/Whatsapp';
 import Footer from './components/Footer';
 import './App.css'
 
-function App() {
+export default function App() {
 
   return (
-    <main>
-      
-      <Header />
+<>
+    <Header />
+    <Whatsapp />
+
+    <main>  
       <Home />
       <Marcelo />
       <Krav />
@@ -24,9 +27,7 @@ function App() {
       <Horarios />
       <OndeEstamos />
       <Footer />
-
     </main>
+</>
   )
 }
-
-export default App

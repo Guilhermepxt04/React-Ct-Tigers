@@ -1,21 +1,40 @@
-import React from 'react'
+import React, {useState} from 'react'
 import style from './Header.module.css'
 import logo from '../assets/img/logo.png'
 
-function Header() {
+export default function Header() {
+
+    const [menuAberto, setMenuAberto] = useState(false);
+
+ 
+    const toggleMenu = () => {
+        setMenuAberto(!menuAberto);
+    };
+
     return(
         <header>
             <nav className={style.nav}> 
                 <img className={style.logo} src={logo} alt="Logo da equipe Krav Maga Tigers" />
-                <a href="#marcelo"> Instrutor </a>
-                <a href="#krav"> Krav Maga</a>
-                <a href="#muaythai"> Muay-Thai</a>
-                <a href="#planos"> Planos</a>
-                <a href="#horarios"> Horários </a>
-                <a href="#ondeEstamos"> Onde Estamos</a>
+                
+                <button 
+                    className={`${style.hamburger} ${menuAberto ? style.aberto : ''}`} 
+                    onClick={toggleMenu} 
+                    aria-label="Abrir menu"
+                >
+                    <div className={style.bar}></div>
+                    <div className={style.bar}></div>
+                    <div className={style.bar}></div>
+                </button>
+
+                <div className={`${style.menuNav} ${menuAberto ? style.menuAberto : ''}`}>
+                    <a href="#marcelo" onClick={toggleMenu}> Instrutor </a>
+                    <a href="#krav" onClick={toggleMenu}> Krav Maga</a>
+                    <a href="#muaythai" onClick={toggleMenu}> Muay-Thai</a>
+                    <a href="#planos" onClick={toggleMenu}> Planos</a>
+                    <a href="#horarios" onClick={toggleMenu}> Horários </a>
+                    <a href="#ondeEstamos" onClick={toggleMenu}> Onde Estamos</a>
+                </div>
             </nav>
         </header>
     )
 }
-
-export default Header
