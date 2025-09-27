@@ -1,0 +1,63 @@
+footer {
+    background-color: #121212;
+    color: #fff;
+    padding: 10px 0 20px;
+    font-size: 14px;
+}
+
+.footerContainer {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.footerConteudo h3 {
+    color: #EB1C22;
+    margin-bottom: 8px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.footerConteudo address {
+    text-align: center;
+    line-height: 1.5;
+}
+
+.footerConteudo a { 
+    color: #8688fc;
+}
+
+.footerConteudo a:hover {
+    color: #bb86fc;
+}
+
+.redesSociais {
+    display: flex; 
+    justify-content: center; 
+    gap: 20px; 
+    margin-top: 10px; 
+}
+
+.redesSociais img {
+    width: 40px;
+    height: auto;
+    transition: .3s all;; 
+}
+
+.redesSociais img:hover {
+    transform: scale(1.5);
+}
+
+.copy {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #333;
+    font-size: 6px;
+}
+
+.copy p {
+    color: #fff;
+}

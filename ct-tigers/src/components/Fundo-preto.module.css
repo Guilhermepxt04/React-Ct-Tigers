@@ -1,0 +1,12 @@
+.krav, .planos {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    background-color: #000;
+    align-items: center;
+}
+
+.kravmaga p {
+    width: 90%;
+}

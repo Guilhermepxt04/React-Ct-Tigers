@@ -1,0 +1,16 @@
+.marcelo, .muaythai, .horarios, .ondeEstamos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-color: #ebebeb;
+    align-items: center;
+}
+
+.marcelo p, .muaythai p, .horarios p {
+    color: #000;
+}
+
+.ondeEstamos {
+    background-color: #000;
+}

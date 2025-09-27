@@ -1,0 +1,21 @@
+#home {display: flex;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #ffffff;
+    letter-spacing: 0.50em;
+    width: 100%;
+    background-image: url(../assets/img/marcelo-banner.png);
+    background-color: #000;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;}
+
+#home h1 {
+    width: 80%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 8em;
+}
+
+#home span {
+    color: #EB1C24;
+}

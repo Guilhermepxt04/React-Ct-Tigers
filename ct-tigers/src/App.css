@@ -22,11 +22,21 @@ main {
     margin: auto;
 }
 
+p {
+    margin-top: 1%;
+    font-size: 2em;
+    color: #fff;
+}
+
 img {
     border-radius: 20px;
     margin-top: 2%;
     transition: .3s all;
     box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.3);
+}
+
+iframe {
+    margin-top: 2%;
 }
 
 img:hover {
