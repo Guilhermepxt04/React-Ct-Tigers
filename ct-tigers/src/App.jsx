@@ -19,7 +19,6 @@ export default function App() {
     <Whatsapp />
 
     <main>  
-      <ApiAcessibilidade />
       <Hero />
       <Marcelo />
       <Modalidades />

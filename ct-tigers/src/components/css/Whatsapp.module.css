@@ -1,6 +1,6 @@
 .btWhatsApp {
     position: fixed;
-    left: 90px;
+    left: 30px;
     bottom: 20px;
     z-index: 10;
     width: 65px;
@@ -20,7 +20,7 @@
 
 .msg {
     position: fixed;
-    left: 165px;
+    left: 110px;
     bottom: 35px;
     background: #fff;
     color: #000;
@@ -41,7 +41,7 @@
 @media (max-width: 768px) {
     .btWhatsApp {
         position: fixed;
-        left: 80px;
+        left: 20px;
         bottom: 6px;
         z-index: 10;
         width: 50px;
