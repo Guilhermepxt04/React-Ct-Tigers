@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import style from '../components/css/Header.module.css'
-import logo from '../assets/img/logo.webp'
+import logo from '../../public/logo.ico'
 
 export default function Header() {
 
