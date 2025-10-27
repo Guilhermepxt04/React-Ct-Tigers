@@ -6,7 +6,7 @@ export default function CardProps({ img, altImg, titulo, texto, lista1, lista2, 
     return (
 
         <div className={Style.card}>
-            <img src={img} alt={altImg || titulo} /> 
+            <img src={img} alt={altImg || titulo} loading="lazy"/> 
 
             <div className={Style.cardConteudo}>
                 <h3>{titulo}</h3>

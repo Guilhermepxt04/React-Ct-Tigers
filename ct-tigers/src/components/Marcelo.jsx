@@ -14,7 +14,7 @@ export default function Marcelo() {
                 transition={{ duration: 0.6 }}>
 
                 <div className={Style.imagemContainer}>
-                    <img src={Image} alt="Instrutor Marcelo Carvalho" />
+                    <img src={Image} alt="Instrutor Marcelo Carvalho" loading="lazy"/>
                 </div>
 
                 <div className={Style.textoContainer}>
