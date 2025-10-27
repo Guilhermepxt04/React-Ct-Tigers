@@ -1,7 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import Style from '../components/css/Marcelo.module.css' 
-import Image from '../assets/img/marcelo-carvalho.jpg'
+import Image from '../assets/img/marcelo.png'
 
 export default function Marcelo() {
     return (
