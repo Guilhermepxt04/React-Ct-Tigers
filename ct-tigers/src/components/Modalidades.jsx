@@ -58,7 +58,7 @@ export default function Planos() {
 
                 </div>
 
-                <button><a href="https://api.whatsapp.com/send?phone=5511953997087&text=Olá!%20Gostaria%20de%20mais%20informações%20sobre%20as%20aulas">Escolha o melhor para você e <br />agende uma aula gratuita!!!</a></button>
+                <button><a href="https://api.whatsapp.com/send?phone=5511953997087&text=Olá!%20Gostaria%20de%20mais%20informações%20sobre%20as%20aulas" target="_blank">Escolha o melhor para você e <br />agende uma aula gratuita!!!</a></button>
 
             </motion.div>
 

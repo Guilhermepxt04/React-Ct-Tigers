@@ -13,7 +13,7 @@ export default function Cta() {
 
                     <h1> PRONTO PARA COMEÇAR <br /> SEUS TREINOS?</h1>
                     <p>Agende sua primeira Aula Experimental gratuita e descubra seu verdadeiro potencial </p>
-                    <button><a href="https://api.whatsapp.com/send?phone=5511953997087&text=Olá!%20Gostaria%20de%20mais%20informações%20sobre%20as%20aulas">Agendar aula grátis</a></button>
+                    <button><a href="https://api.whatsapp.com/send?phone=5511953997087&text=Olá!%20Gostaria%20de%20mais%20informações%20sobre%20as%20aulas" target="_blank">Agendar aula grátis</a></button>
 
             </motion.div>
 
