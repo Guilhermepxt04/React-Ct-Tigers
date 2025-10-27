@@ -16,7 +16,7 @@
         flex-wrap: wrap;
 
         & h2 {
-            font-size: 2.5em;
+            font-size: 3.5em;
         }
 
         & span {
@@ -47,16 +47,8 @@
             text-align: center;
             color: #fff;
             border: 2px solid #333;
-        }
-
-        & th {
             font-weight: bold;
-            font-size: 1.2em;
-        }
-
-        & td {
-            font-weight: bold;
-            font-size: 1.2em;
+            font-size: 1.7em;
         }
 
         & tbody {
@@ -75,10 +67,22 @@
 
 @media (max-width: 768px) {
 
-    p {
-        width: 100%;
-    }
-    
-}
+    .horarios {
 
- 
+        & div {
+            p {
+                width: 100%;
+                font-size: 1.5em;
+            }
+        }
+
+        & table {
+
+            & th,td {
+                font-size: 1.2em;
+            }
+        }
+    }
+
+
+}

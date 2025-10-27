@@ -79,18 +79,39 @@
             border: 1px solid #EB1C24;
         }
     }
+
+    & button {
+        width: fit-content;
+        white-space: nowrap;
+        border-radius: 10px;
+        font-weight: bold;
+        padding: 40px;
+        box-shadow: 0 0 15px 5px rgba(252, 252, 252, 0.3);
+        transition: .3s all;
+        font-size: 1.8em;
+        text-decoration: none;
+        text-align: center;
+
+        & a {
+            text-decoration: none;
+            color: #ff0000;
+        }
+    }
+
+    & button:hover {
+        transform: scale(1.1);
+    }
 }
 
 @media (max-width: 768px) {
 
-    .cards {
-        padding: 10px 0;
-        gap: 20px;
+    .planos {
 
-        & .card {
-            width: 90%;
-            max-width: 400px;
+        & button {
+            padding: 30px;
+            font-size: 1.3em;
         }
+
     }
 
 

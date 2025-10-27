@@ -20,7 +20,7 @@
         }
 
         & h2 {
-            font-size: 2.5em;
+            font-size: 3.5em;
         }
 
         & p {
@@ -29,9 +29,38 @@
             color: #fff;
             font-size: 2em;
         }
+
+        & a {
+            & iframe {
+                width: 500px;
+                height: 500px;
+                border-radius: 10px;
+            }
+        }
     }
 
-    & iframe {
-        width: 500px;
+}
+
+@media (max-width: 768px) {
+
+    .ondeEstamos {
+
+        & div {
+            p {
+                width: 100%;
+                font-size: 1.5em;
+            }
+
+            & a {
+                & iframe {
+                    width: 370px;
+                    height: 370px;
+                }
+            }
+        }
+
+
     }
+
+
 }

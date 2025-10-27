@@ -28,8 +28,7 @@ export default function Header() {
 
                 <div className={`${style.menuNav} ${menuAberto ? style.menuAberto : ''}`}>
                     <a href="#marcelo" onClick={toggleMenu}> Instrutor </a>
-                    <a href="#krav" onClick={toggleMenu}> Krav Maga</a>
-                    <a href="#planos" onClick={toggleMenu}> Modalidades</a>
+                    <a href="#modalidades" onClick={toggleMenu}> Modalidades</a>
                     <a href="#horarios" onClick={toggleMenu}> Horários </a>
                     <a href="#ondeEstamos" onClick={toggleMenu}> Onde Estamos</a>
                 </div>

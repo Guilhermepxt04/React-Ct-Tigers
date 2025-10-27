@@ -1,13 +1,13 @@
 import React from "react";
 import { motion } from "framer-motion";
-import Style from '../components/css/Planos.module.css'
+import Style from '../components/css/Modalidades.module.css'
 import ImgMuay from '../assets/img/luvas-muaythai.jpg'
 import ImgPersonal from '../assets/img/personal.jpg'
 import ImgKrav from '../assets/img/krav.jpg'
 
 export default function Planos() {
     return (
-        <section id="planos" className={Style.planos}>
+        <section id="modalidades" className={Style.planos}>
 
 
             <motion.div
@@ -30,7 +30,7 @@ export default function Planos() {
                                 <li>Confiança pessoal</li>
                             </ul>
                         </div>
-                        
+
                     </div>
 
                     <div className={Style.card}>
@@ -45,7 +45,7 @@ export default function Planos() {
                                 <li>Técnica de Striking</li>
                             </ul>
                         </div>
-                        
+
                     </div>
 
                     <div className={Style.card}>
@@ -60,10 +60,12 @@ export default function Planos() {
                                 <li>Resultados rápidos</li>
                             </ul>
                         </div>
-                        
+
                     </div>
 
                 </div>
+
+                <button><a href="https://api.whatsapp.com/send?phone=5511953997087&text=Olá!%20Gostaria%20de%20mais%20informações%20sobre%20as%20aulas">Escolha o melhor para você e <br />agende uma aula gratuita!!!</a></button>
 
             </motion.div>
 

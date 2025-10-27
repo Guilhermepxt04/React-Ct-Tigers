@@ -1,0 +1,52 @@
+.cta {
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    align-items: center;
+
+    & div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0px 20px 20px;
+        gap: 20px;
+
+
+        & h1 {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 5em;
+            text-align: center;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            color: #Fff;
+        }
+
+        & p {
+            color: #Fff;
+            font-size: 2em;
+            text-align: center;
+        }
+
+        & button {
+            width: fit-content;
+            white-space: nowrap;
+            border-radius: 10px;
+            font-weight: bold;
+            padding: 40px;
+            box-shadow: 0 0 15px 5px rgba(252, 252, 252, 0.3);
+            transition: .3s all;
+            font-size: 1.7em;
+            text-decoration: none;
+            text-align: center;
+            cursor: pointer;
+
+            & a {
+                text-decoration: none;
+                color: #ff0000;
+            }
+        }
+
+        & button:hover {
+                transform: scale(1.1);
+            }
+    }
+}

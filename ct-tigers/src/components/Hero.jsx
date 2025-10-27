@@ -10,7 +10,7 @@ export default function Home() {
                 
 
                 <div className={Style.botoes}>
-                    <a href="#planos" className={`${Style.botao} ${Style.red}`}>
+                    <a href="#modalidades" className={`${Style.botao} ${Style.red}`}>
                         Conheça nossos planos
                     </a>
                     <a href="#ondeEstamos" className={`${Style.botao} ${Style.transparente}`}>

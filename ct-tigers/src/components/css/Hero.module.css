@@ -7,8 +7,6 @@
     background-position: right;
     background-repeat: no-repeat;
     background-size: contain;
-
-
     min-height: 100vh;
 
     & .conteudo {
@@ -46,10 +44,10 @@
                 border-radius: 10px;
                 color: #ffffff;
                 font-weight: bold;
-                padding: 25px;
+                padding: 30px;
                 box-shadow: 0 0 15px 5px rgba(252, 252, 252, 0.3);
                 transition: .3s all;
-                font-size: 1em;
+                font-size: 1.5em;
                 text-decoration: none;
                 text-align: center;
             }
@@ -111,6 +109,7 @@
 
 
 @media (max-width: 525px) {
+    
     .hero {
 
         min-height: 80vh;
@@ -126,6 +125,15 @@
             & p {
                 font-size: 20px;
             }
+
+            & .botoes {
+
+                & .botao {
+                padding: 20px;
+                font-size: 1em;
+            }
+            }
+            
         }
     }
 }
