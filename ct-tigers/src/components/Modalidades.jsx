@@ -4,6 +4,7 @@ import Style from '../components/css/Modalidades.module.css'
 import ImgMuay from '../assets/img/luvas-muaythai.jpg'
 import ImgPersonal from '../assets/img/personal.jpg'
 import ImgKrav from '../assets/img/krav.jpg'
+import ImgBoxe from '../assets/img/boxe.jpg'
 import CardProps from "./CardProps";
 
 export default function Planos() {
@@ -35,6 +36,15 @@ export default function Planos() {
                     lista1="Resistencia Cardiovascular"
                     lista2="Disciplina"
                     lista3="Técnica de Striking"
+                    />
+
+                    <CardProps 
+                    img={ImgBoxe}
+                    titulo="Boxe"
+                    texto="A 'nobre arte' focada na técnica de punhos, agilidade de pés e esquivas precisas para ataque e defesa."
+                    lista1="Defesa e Esquiva"
+                    lista2="Agilidade e Trabalho de Pés (Footwork)"
+                    lista3="Força e Potência nos Golpes"
                     />
 
                     <CardProps 
