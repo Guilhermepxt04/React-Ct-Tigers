@@ -1,10 +1,10 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Style from '../components/css/Modalidades.module.css'
-import ImgMuay from '../assets/img/luvas-muaythai.webp'
-import ImgPersonal from '../assets/img/personal.webp'
-import ImgKrav from '../assets/img/krav.webp'
-import ImgBoxe from '../assets/img/boxe.webp'
+import ImgMuay from '../assets/img/luvas-muaythai.jpg'
+import ImgPersonal from '../assets/img/personal.jpg'
+import ImgKrav from '../assets/img/krav.jpg'
+import ImgBoxe from '../assets/img/boxe.jpg'
 import CardProps from "./CardProps";
 
 export default function Planos() {
