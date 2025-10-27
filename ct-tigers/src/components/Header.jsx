@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import style from './Header.module.css'
+import style from '../components/css/Header.module.css'
 import logo from '../assets/img/logo.png'
 
 export default function Header() {
@@ -29,8 +29,7 @@ export default function Header() {
                 <div className={`${style.menuNav} ${menuAberto ? style.menuAberto : ''}`}>
                     <a href="#marcelo" onClick={toggleMenu}> Instrutor </a>
                     <a href="#krav" onClick={toggleMenu}> Krav Maga</a>
-                    <a href="#muaythai" onClick={toggleMenu}> Muay-Thai</a>
-                    <a href="#planos" onClick={toggleMenu}> Planos</a>
+                    <a href="#planos" onClick={toggleMenu}> Modalidades</a>
                     <a href="#horarios" onClick={toggleMenu}> Horários </a>
                     <a href="#ondeEstamos" onClick={toggleMenu}> Onde Estamos</a>
                 </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from 'framer-motion';
-import Style from './Fundo-preto.module.css'
+import Style from '../components/css/Fundo-preto.module.css'
 import ImgKrav from '../assets/img/krav-maga.jpg'
 import ImgPraticar from '../assets/img/quem-pratica.jpg'
 

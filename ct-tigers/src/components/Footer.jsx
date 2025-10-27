@@ -1,5 +1,5 @@
 import React from "react";
-import Style from './Footer.module.css'
+import Style from '../components/css/Footer.module.css'
 import Tiktok from '../assets/img/logo-tiktok.png'
 import Instagram from '../assets/img/logo-instagram.webp'
 

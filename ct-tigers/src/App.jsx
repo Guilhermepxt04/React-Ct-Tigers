@@ -1,9 +1,8 @@
 import React from 'react';
 import Header from './components/Header'
-import Home from './components/Home'
+import Hero from './components/Hero'
 import Marcelo from './components/Marcelo';
 import Krav from './components/Krav';
-import MuayThai from './components/MuayThai';
 import Planos from './components/Planos';
 import Horarios from './components/Horarios';
 import OndeEstamos from './components/OndeEstamos';
@@ -19,10 +18,9 @@ export default function App() {
     <Whatsapp />
 
     <main>  
-      <Home />
+      <Hero />
       <Marcelo />
       <Krav />
-      <MuayThai />
       <Planos />
       <Horarios />
       <OndeEstamos />
