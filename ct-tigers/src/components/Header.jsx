@@ -1,6 +1,5 @@
 import React, {useState} from 'react'
 import style from '../components/css/Header.module.css'
-import logo from '../../public/logo.ico'
 
 export default function Header() {
 
@@ -14,7 +13,7 @@ export default function Header() {
     return(
         <header>
             <nav className={style.nav}> 
-                <img className={style.logo} src={logo} alt="Logo da equipe Krav Maga Tigers" />
+                <img className={style.logo} src="/logo.ico" alt="Logo da equipe Krav Maga Tigers" />
                 
                 <button 
                     className={`${style.hamburger} ${menuAberto ? style.aberto : ''}`} 
