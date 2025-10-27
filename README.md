@@ -26,7 +26,7 @@ O site serve como uma vitrine digital para a academia, apresentando as modalidad
 
 ## 🚀 Começando
 
-Siga estas instruções para obter uma cópia do projeto rodando na sua máquina local para desenvolvimento e testes.
+Siga estas instruções para obter uma cópia do projeto rodando na sua máquina local.
 
 ### Pré-requisitos
 
