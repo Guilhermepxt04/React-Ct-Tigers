@@ -11,7 +11,7 @@ export default function Home() {
 
                 <div className={Style.botoes}>
                     <a href="#modalidades" className={`${Style.botao} ${Style.red}`}>
-                        Conheça nossos planos
+                        Conheça nossas modalidades
                     </a>
                     <a href="#ondeEstamos" className={`${Style.botao} ${Style.transparente}`}>
                         Onde nós estamos
