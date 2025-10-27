@@ -1,15 +1,15 @@
-# Centro de Treinamento Tigers
+# 💪 Centro de Treinamento Tigers
 
 Este é o repositório do site oficial do **Centro de Treinamento Tigers**, uma academia que oferece aulas de Krav Maga, Muay Thai, Boxe e Personal Training. O site foi desenvolvido utilizando React e Vite.
 
 ## Visão Geral
 
-O site serve como uma vitrine digital para a academia, apresentando as modalidades oferecidas, informações sobre o instrutor principal (Marcelo Carvalho), horários das aulas, localização e formas de contato.
+O site serve como uma vitrine digital para a academia, apresentando as modalidades oferecidas, informações sobre o instrutor Marcelo Carvalho, horários das aulas, localização e formas de contato.
 
 ## ✨ Funcionalidades
 
 * **Design Responsivo:** O site se adapta a diferentes tamanhos de tela (desktop, tablet, mobile).
-* **Navegação Suave:** Links internos com scroll suave (`scroll-behavior: smooth;` em `App.css`) para facilitar a navegação entre as seções.
+* **Navegação Suave:** Links internos com scroll suave para facilitar a navegação entre as seções.
 * **Animações:** Utiliza a biblioteca `framer-motion` para animações sutis de entrada nos componentes.
 * **Componentização:** Código organizado em componentes reutilizáveis (como `CardProps.jsx`).
 * **Menu Hamburger:** Menu de navegação adaptado para mobile com animação de "gaveta" e ícone que se transforma em "X".
@@ -37,11 +37,11 @@ Siga estas instruções para obter uma cópia do projeto rodando na sua máquina
 
 1.  Clone o repositório:
     ```bash
-    git clone [https://github.com/guilhermepxt04/react-ct-tigers.git](https://github.com/guilhermepxt04/react-ct-tigers.git)
+    git clone https://github.com/guilhermepxt04/React-Ct-Tigers.git
     ```
 2.  Navegue até o diretório do projeto:
     ```bash
-    cd react-ct-tigers/ct-tigers
+    cd React-ct-tigers/ct-tigers
     ```
 3.  Instale as dependências:
     ```bash
