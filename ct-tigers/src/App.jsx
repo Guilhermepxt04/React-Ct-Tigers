@@ -1,5 +1,4 @@
 import React from 'react';
-import ApiAcessibilidade from './components/api/ApiAcessibilidade.jsx'
 import Header from './components/Header'
 import Hero from './components/Hero'
 import Marcelo from './components/Marcelo';

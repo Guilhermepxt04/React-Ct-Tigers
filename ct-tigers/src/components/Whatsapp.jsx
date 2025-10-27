@@ -1,6 +1,6 @@
 import React from "react";
 import Style from '../components/css/Whatsapp.module.css'
-import Img from '../assets/img/logo-whatsapp.png'
+import Img from '../assets/img/logo-whatsapp.webp'
 
 export default function Whatsapp() {
     return (

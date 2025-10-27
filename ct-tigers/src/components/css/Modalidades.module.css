@@ -29,11 +29,11 @@
             border-radius: 10px;
             overflow: hidden;
             text-align: left;
+            will-change: transform;
 
             & img {
                 width: 100%;
                 height: 250px;
-                object-fit: cover;
             }
 
             & .cardConteudo {

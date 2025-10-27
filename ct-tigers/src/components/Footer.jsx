@@ -1,6 +1,6 @@
 import React from "react";
 import Style from '../components/css/Footer.module.css'
-import Tiktok from '../assets/img/logo-tiktok.png'
+import Tiktok from '../assets/img/logo-tiktok.webp'
 import Instagram from '../assets/img/logo-instagram.webp'
 
 

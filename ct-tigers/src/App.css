@@ -1,6 +1,7 @@
 @font-face {
     font-family: 'Impact';
-    src: url(assets/fonts/IMPACT.TTF);
+    src: url(assets/fonts/IMPACT.woff2);
+    font-display: swap;
 }
 
 * {
@@ -28,6 +29,7 @@ img {
     border-radius: 20px;
     transition: .3s all;
     box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.3);
+    will-change: transform;
 }
 
 img:hover {
