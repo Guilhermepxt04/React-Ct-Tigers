@@ -13,7 +13,7 @@ export default function Footer() {
 
                 <div className={Style.footerConteudo}>
 
-                    <h3>Endereço</h3>
+                    <h2>Endereço</h2>
 
                     <address>
                         <a href="https://maps.app.goo.gl/z1FcYRF17iH9gDXn6" target="_blank" rel="external">
@@ -27,7 +27,7 @@ export default function Footer() {
 
                 <div className={Style.footerConteudo}>
 
-                    <h3>Redes Sociais</h3>
+                    <h2>Redes Sociais</h2>
 
                     <div className={Style.redesSociais}>
                         <a href="https://www.instagram.com/kravmaga_instrutormarcelo?igsh=bXNuajh4bGVhc2hy" target="_blank" rel="external" aria-label="Instagram">
