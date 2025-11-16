@@ -11,7 +11,6 @@ export default function Header() {
     };
 
     return(
-        <header>
             <nav className={style.nav}> 
                 <img className={style.logo} src="/logo.ico" alt="Logo da equipe Krav Maga Tigers" />
                 
@@ -32,6 +31,5 @@ export default function Header() {
                     <a href="#ondeEstamos" onClick={toggleMenu}> Onde Estamos</a>
                 </div>
             </nav>
-        </header>
     )
 }

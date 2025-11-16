@@ -14,8 +14,9 @@ export default function App() {
 
   return (
 <>
-    <Header />
-    <Whatsapp />
+    <header>
+      <Header />
+    </header>
 
     <main>  
       <Hero />
@@ -24,8 +25,14 @@ export default function App() {
       <Horarios />
       <OndeEstamos />
       <Cta />
-      <Footer />
+
     </main>
+
+    <footer>
+      <Footer />
+    </footer>
+
+    <Whatsapp />
 </>
   )
 }
